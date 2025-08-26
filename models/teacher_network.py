@@ -152,7 +152,7 @@ class TeacherNetwork(nn.Module):
             x: Input ECG signal [batch_size, 1, sequence_length]
         
         Returns:
-            tuple: (d1, x1, x2, x3) - MATCHES ORIGINAL CODE EXACTLY
+            tuple: (d1, x1, x2, x3) - 
                 - d1: Segmentation output [batch_size, 3, sequence_length] 
                 - x1, x2, x3: Intermediate features for attention transfer
         """
